@@ -24,7 +24,7 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-cd $DIR/themes/coder && git restore . && cd $DIR
+cd $DIR/themes/coder && git restore . && cd $DIR/public
 
 echo "Updating gh-pages branch"
 git add --all && git commit -m "Publishing to DTan13.github.io"
