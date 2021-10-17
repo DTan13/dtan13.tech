@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dtan13.github.io
+Token: fe04ea05a28a6ffb695ab559e7fe37bd753fb046c44901a4ac804451d94243a6
