@@ -1,9 +1,9 @@
-baseURL = "http://dtan13.tech"
+baseURL = "https://dtan13.tech/"
 title = "DTan13"
 theme = "coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-enableEmoji = true
+enableEmoji = false
 disableComments = true
 disableKinds = ['taxonomyTerm', 'taxonomy', 'term']
 paginate = 0
