@@ -3,8 +3,9 @@
 echo "Source env file for all variables"
 source ./env
 
-echo "Removing uppercase style from website header"
+echo "Replacing styles from website header and title"
 cd $DIR/themes/coder/assets/scss && sed -i 's/uppercase/none/' _navigation.scss && cd $DIR
+cd $DIR/themes/coder/layouts/_default && sed -i 's/·/-/' single.html && cd $DIR
 
 echo "Deleting old publication"
 rm -rf public
@@ -24,7 +25,7 @@ lftp -e "
     open $FTPHOST
     user $USR $PASS
     lcd $LOCALFOLDER
-    mirror --reverse --verbose --only-newer $DIR/public/ $REMOTEFOLDER/
+    mirror --reverse --verbose --transfer-all --only-newer $DIR/public/ $REMOTEFOLDER/
     bye
     "
 echo "Sync Complete."

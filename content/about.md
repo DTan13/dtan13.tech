@@ -1,6 +1,6 @@
 +++
-title = ""
-aliases = ["about-me", "about", "contact"]
+title = "About"
+aliases = ["about-me", "about", "contact","contact-me" ]
 author = "Dhananjay Tanpure"
 +++
 
