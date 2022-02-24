@@ -79,12 +79,6 @@ weight = 7
 url = "https://telegram.me/DTan13/"
 
 [[params.social]]
-name = "KeyBase"
-icon = "fa fa-keybase"
-weight = 8
-url = "https://keybase.io/DTan13/"
-
-[[params.social]]
 name = "Reddit"
 icon = "fa fa-reddit"
 weight = 9
@@ -94,19 +88,13 @@ url = "https://reddit.com/u/dtan13/"
 name = "Twitter"
 icon = "fa fa-twitter"
 weight = 10
-url = "https://twitter.com/DTan13_/"
+url = "https://twitter.com/DTan13dottech/"
 
 [[params.social]]
 name = "Patreon"
 icon = "fa fa-patreon"
 weight = 11
 url = "https://patreon.com/dtan13"
-
-[[params.social]]
-name = "Instagram"
-icon = "fa fa-instagram"
-weight = 12
-url = "https://instagram.com/DTan.13/"
 
 [[params.social]]
 name = "RSS"
@@ -125,8 +113,3 @@ url = "https://blog.dtan13.tech"
 name = "Projects"
 weight = 2
 url = "projects/"
-
-[[menu.main]]
-name = "About"
-weight = 3
-url = "about/"

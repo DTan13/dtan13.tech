@@ -3,3 +3,4 @@ resources
 
 .vscode
 env
+.hugo_build.lock
