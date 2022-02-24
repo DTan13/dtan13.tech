@@ -2,12 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://dtan13.tech/about/</loc>
+    <loc>https://dtan13.tech/about/</loc>
   </url><url>
-    <loc>http://dtan13.tech/projects/</loc>
+    <loc>https://dtan13.tech/</loc>
   </url><url>
-    <loc>http://dtan13.tech/contact/</loc>
-  </url><url>
-    <loc>http://dtan13.tech/</loc>
+    <loc>https://dtan13.tech/projects/</loc>
   </url>
 </urlset>
