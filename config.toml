@@ -14,7 +14,9 @@ customCSS = []
 # Custom SCSS
 customSCSS = []
 # Custom JS
-customJS = []
+customJS = [
+    "https://unpkg.com/@codersrank/activity@0.9.10/codersrank-activity.min.js"
+]
 
 [params]
 author = "Dhananjay Tanpure"
@@ -23,12 +25,12 @@ keywords = "blog,developer,personal"
 info = []
 avatarURL = "/images/avatar.png"
 #gravatar = ""
-# footerContent = '''echo Hi there! > /dev/pts/$(tty | cut -d"/" -f4)'''
+# footerContent = '''echo Hi There > /dev/pts/$(tty | cut -d"/" -f$(echo 1+3 | bc))'''
 dateFormat = "January 2, 2006"
-hideFooter = false
+hideFooter = true
 hideCredits = true
 hideCopyright = false
-since = 2021
+since = 2020
 rtl = false
 colorScheme = "dark"
 # Hide the toggle button, along with the associated vertical divider
@@ -52,7 +54,7 @@ url = "https://github.com/DTan13/"
 name = "LinkedIn"
 icon = "fa fa-linkedin"
 weight = 3
-url = "https://linkedin.com/in/dtan13/"
+url = "https://www.linkedin.com/in/dtan13/"
 
 [[params.social]]
 name = "Stackoverflow"
@@ -79,37 +81,12 @@ weight = 7
 url = "https://telegram.me/DTan13/"
 
 [[params.social]]
-name = "Reddit"
-icon = "fa fa-reddit"
-weight = 9
-url = "https://reddit.com/u/dtan13/"
-
-[[params.social]]
 name = "Twitter"
 icon = "fa fa-twitter"
-weight = 10
-url = "https://twitter.com/DTan13dottech/"
-
-[[params.social]]
-name = "Patreon"
-icon = "fa fa-patreon"
-weight = 11
-url = "https://patreon.com/dtan13"
-
-[[params.social]]
-name = "RSS"
-icon = "fa fa-rss"
-weight = 13
-url = "https://blog.dtan13.tech/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+weight = 8
+url = "https://twitter.com/theDTan13/"
 
 [[menu.main]]
 name = "Blog"
 weight = 1
 url = "https://blog.dtan13.tech"
-
-[[menu.main]]
-name = "Projects"
-weight = 2
-url = "projects/"
